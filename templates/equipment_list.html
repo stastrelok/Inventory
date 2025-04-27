@@ -1,0 +1,80 @@
+{% extends "base.html" %}  
+
+{% block content %}  
+<div class="equipment-list">  
+    <h1>Список обладнання</h1>  
+    
+    <div class="filters">  
+        <select id="status-filter">  
+            <option value="all">Всі</option>  
+            <option value="in_use">Використовується</option>  
+            <option value="available">Доступне</option>  
+            <option value="written_off">Списане</option>  
+        </select>  
+        <input type="text" id="search" placeholder="Пошук...">  
+    </div>  
+
+    {% if current_user.is_admin or current_user.is_user %}  
+    <div class="actions">  
+        <a href="{{ url_for('equipment.add') }}" class="btn">Додати обладнання</a>  
+    </div>  
+    {% endif %}  
+
+    <div class="count-info">  
+        Всього обладнання: {{ equipment|length }}  
+    </div>  
+
+    <table>  
+        <thead>  
+            <tr>  
+                <th>Виробник</th>  
+                <th>Модель</th>  
+                <th>Серійний номер</th>  
+                <th>MAC адреса</th>  
+                <th>Статус</th>  
+                <th>Клієнт</th>  
+                <th>Дата додавання</th>  
+                {% if current_user.is_admin %}  
+                <th>Дії</th>  
+                {% endif %}  
+            </tr>  
+        </thead>  
+        <tbody>  
+            {% for item in equipment %}  
+            <tr>  
+                <td>{{ item.manufacturer }}</td>  
+                <td>{{ item.model }}</td>  
+                <td>{{ item.serial_number }}</td>  
+                <td>{{ item.mac_address }}</td>  
+                <td>{{ item.status }}</td>  
+                <td>{% if item.client %}{{ item.client.full_name }}{% else %}-{% endif %}</td>  
+                <td>{{ item.created_at.strftime('%d.%m.%Y') }}</td>  
+                {% if current_user.is_admin %}  
+                <td>  
+                    <a href="{{ url_for('equipment.edit', id=item.id) }}" class="btn-small">Редагувати</a>  
+                    <button onclick="deleteEquipment({{ item.id }})" class="btn-small delete">Видалити</button>  
+                </td>  
+                {% endif %}  
+            </tr>  
+            {% endfor %}  
+        </tbody>  
+    </table>  
+</div>  
+
+<script>  
+function deleteEquipment(id) {  
+    if (confirm('Ви впевнені, що хочете видалити це обладнання?')) {  
+        fetch(`/equipment/${id}/delete`, {  
+            method: 'POST',  
+            headers: {  
+                'X-CSRFToken': '{{ csrf_token() }}'  
+            }  
+        }).then(response => {  
+            if (response.ok) {  
+                location.reload();  
+            }  
+        });  
+    }  
+}  
+</script>  
+{% endblock %}

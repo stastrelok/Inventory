@@ -1,0 +1,36 @@
+{% extends "base.html" %}  
+
+{% block content %}  
+<div class="container">  
+    <h1>Управління користувачами</h1>  
+    <a href="{{ url_for('user_management_routes.add_user') }}" class="btn btn-primary mb-3">Додати користувача</a>  
+    
+    <table class="table">  
+        <thead>  
+            <tr>  
+                <th>Ім'я користувача</th>  
+                <th>Email</th>  
+                <th>Роль</th>  
+                <th>Статус</th>  
+                <th>Дії</th>  
+            </tr>  
+        </thead>  
+        <tbody>  
+            {% for user in users %}  
+            <tr>  
+                <td>{{ user.username }}</td>  
+                <td>{{ user.email }}</td>  
+                <td>{{ user.role }}</td>  
+                <td>{{ "Активний" if user.is_active else "Неактивний" }}</td>  
+                <td>  
+                    <a href="{{ url_for('user_management_routes.edit_user', id=user.id) }}" class="btn btn-sm btn-warning">Редагувати</a>  
+                    <form action="{{ url_for('user_management_routes.delete_user', id=user.id) }}" method="POST" class="d-inline">  
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Ви впевнені?')">Видалити</button>  
+                    </form>  
+                </td>  
+            </tr>  
+            {% endfor %}  
+        </tbody>  
+    </table>  
+</div>  
+{% endblock %}

@@ -1,0 +1,95 @@
+{% extends "base.html" %}  
+
+{% block content %}  
+<div class="dashboard">  
+    <h1>Панель управління</h1>  
+
+    <div class="statistics">  
+        <div class="stat-box">  
+            <h3>Всього обладнання</h3>  
+            <p class="stat-number">{{ total_equipment }}</p>  
+        </div>  
+        <div class="stat-box">  
+            <h3>В користуванні</h3>  
+            <p class="stat-number">{{ in_use_equipment }}</p>  
+        </div>  
+        <div class="stat-box">  
+            <h3>Доступно</h3>  
+            <p class="stat-number">{{ available_equipment }}</p>  
+        </div>  
+        <div class="stat-box">  
+            <h3>Списано</h3>  
+            <p class="stat-number">{{ written_off_equipment }}</p>  
+        </div>  
+    </div>  
+
+    <div class="recent-activity">  
+        <h2>Останні додані клієнти</h2>  
+        <table>  
+            <thead>  
+                <tr>  
+                    <th>UID</th>  
+                    <th>ПІБ</th>  
+                    <th>Адреса</th>  
+                    <th>Тариф</th>  
+                    <th>Дата реєстрації</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                {% if recent_clients %}  
+                    {% for client in recent_clients %}  
+                    <tr>  
+                        <td>{{ client.uid }}</td>  
+                        <td>{{ client.full_name }}</td>  
+                        <td>{{ client.street.name }}, {{ client.house_number }}{% if client.apartment %}, кв. {{ client.apartment }}{% endif %}</td>  
+                        <td>{{ client.tariff.name }}</td>  
+                        <td>{{ client.created_at.strftime('%d.%m.%Y') }}</td>  
+                    </tr>  
+                    {% endfor %}  
+                {% else %}  
+                    <tr>  
+                        <td colspan="5">Немає доступних клієнтів.</td>  
+                    </tr>  
+                {% endif %}  
+            </tbody>  
+        </table>  
+    </div>  
+
+    <div class="equipment-list">  
+        <h2>Список обладнання</h2>  
+        <table>  
+            <thead>  
+                <tr>  
+                    <th>ID</th>  
+                    <th>Виробник</th>  
+                    <th>Модель</th>  
+                    <th>Статус</th>  
+                </tr>  
+            </thead>  
+            <tbody>  
+                {% if all_equipment %}  
+                    {% for equipment in all_equipment %}  
+                    <tr>  
+                        <td>{{ equipment.id }}</td>  
+                        <td>{{ equipment.manufacturer }}</td>  
+                        <td>{{ equipment.model }}</td>  
+                        <td>{{ equipment.status }}</td>  
+                    </tr>  
+                    {% endfor %}  
+                {% else %}  
+                    <tr>  
+                        <td colspan="4">Немає доступного обладнання.</td>  
+                    </tr>  
+                {% endif %}  
+            </tbody>  
+        </table>  
+    </div>  
+</div>  
+
+<script>  
+// Додаткова JavaScript функціональність для панелі управління  
+document.addEventListener('DOMContentLoaded', function() {  
+    // Можна додати графіки, оновлення даних в реальному часі тощо  
+});  
+</script>  
+{% endblock %}

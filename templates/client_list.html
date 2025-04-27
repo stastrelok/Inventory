@@ -1,0 +1,91 @@
+{% extends "base.html" %}  
+
+{% block content %}  
+<div class="client-list">  
+    <h1>Список клієнтів</h1>  
+    
+<div class="filters">  
+    <form method="GET" action="{{ url_for('client.list') }}">  
+        <input type="text" id="search" name="search" placeholder="Пошук за UID або ПІБ..." value="{{ request.args.get('search') }}">  
+        <select id="street-filter" name="street">  
+            <option value="">Всі вулиці</option>  
+            {% for street in streets %}  
+            <option value="{{ street.id }}" {% if street.id == request.args.get('street') %}selected{% endif %}>{{ street.name }}</option>  
+            {% endfor %}  
+        </select>  
+        <select id="tariff-filter" name="tariff">  
+            <option value="">Всі тарифи</option>  
+            {% for tariff in tariffs %}  
+            <option value="{{ tariff.id }}" {% if tariff.id == request.args.get('tariff') %}selected{% endif %}>{{ tariff.name }}</option>  
+            {% endfor %}  
+        </select>  
+        <button type="submit">Фільтрувати</button>  
+    </form>  
+</div>
+
+    {% if current_user.is_admin or current_user.is_user %}  
+    <div class="actions">  
+        <a href="{{ url_for('client.add') }}" class="btn">Додати клієнта</a>  
+    </div>  
+    {% endif %}  
+
+    <div class="count-info">  
+        Всього клієнтів: {{ clients|length }}  
+    </div>  
+
+    <table>  
+        <thead>  
+            <tr>  
+                <th>UID</th>  
+                <th>ПІБ</th>  
+                <th>Адреса</th>  
+                <th>Тариф</th>  
+                <th>Обладнання</th>  
+                <th>Дата реєстрації</th>  
+                {% if current_user.is_admin %}  
+                <th>Дії</th>  
+                {% endif %}  
+            </tr>  
+        </thead>  
+        <tbody>  
+            {% for client in clients %}  
+            <tr>  
+                <td>{{ client.uid }}</td>  
+                <td>{{ client.full_name }}</td>  
+                <td>{{ client.street.name }}, {{ client.house_number }}{% if client.apartment %}, кв. {{ client.apartment }}{% endif %}</td>  
+                <td>{{ client.tariff.name }}</td>  
+                <td>  
+                    {% for equipment in client.equipment %}  
+                    {{ equipment.manufacturer }} {{ equipment.model }}<br>  
+                    {% endfor %}  
+                </td>  
+                <td>{{ client.created_at.strftime('%d.%m.%Y') }}</td>  
+                {% if current_user.is_admin %}  
+                <td>  
+                    <a href="{{ url_for('client.edit', id=client.id) }}" class="btn-small">Редагувати</a>  
+                    <button onclick="deleteClient({{ client.id }})" class="btn-small delete">Видалити</button>  
+                </td>  
+                {% endif %}  
+            </tr>  
+            {% endfor %}  
+        </tbody>  
+    </table>  
+</div>  
+
+<script>  
+function deleteClient(id) {  
+    if (confirm('Ви впевнені, що хочете видалити цього клієнта?')) {  
+        fetch(`/client/${id}/delete`, {  
+            method: 'POST',  
+            headers: {  
+                'X-CSRFToken': '{{ csrf_token() }}'  
+            }  
+        }).then(response => {  
+            if (response.ok) {  
+                location.reload();  
+            }  
+        });  
+    }  
+}  
+</script>  
+{% endblock %}

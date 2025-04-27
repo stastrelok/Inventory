@@ -1,0 +1,28 @@
+{% extends "base.html" %}  
+
+{% block content %}  
+<div class="form-container">  
+    <h1>{% if street %}Редагування{% else %}Додавання{% endif %} вулиці</h1>  
+
+    <form method="POST">  
+        {{ form.hidden_tag() }}  
+        
+        <div class="form-group">  
+            {{ form.name.label }}  
+            {{ form.name }}  
+            {% if form.name.errors %}  
+            <div class="errors">  
+                {% for error in form.name.errors %}  
+                <span>{{ error }}</span>  
+                {% endfor %}  
+            </div>  
+            {% endif %}  
+        </div>  
+
+        <div class="form-actions">  
+            {{ form.submit(class="btn") }}  
+            <a href="{{ url_for('street.list') }}" class="btn">Скасувати</a>  
+        </div>  
+    </form>  
+</div>  
+{% endblock %}

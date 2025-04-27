@@ -1,0 +1,62 @@
+{% extends "base.html" %}  
+
+{% block content %}  
+<div class="tariff-list">  
+    <h1>Список тарифів</h1>  
+
+    {% if current_user.is_admin %}  
+    <div class="actions">  
+        <a href="{{ url_for('tariff.add') }}" class="btn">Додати тариф</a>  
+    </div>  
+    {% endif %}  
+
+    <table>  
+        <thead>  
+            <tr>  
+                <th>Назва</th>  
+                <th>Ціна</th>  
+                <th>Опис</th>  
+                <th>Кількість клієнтів</th>  
+                <th>Дата створення</th>  
+                {% if current_user.is_admin %}  
+                <th>Дії</th>  
+                {% endif %}  
+            </tr>  
+        </thead>  
+        <tbody>  
+            {% for tariff in tariffs %}  
+            <tr>  
+                <td>{{ tariff.name }}</td>  
+                <td>{{ "%.2f"|format(tariff.price) }}</td>  
+                <td>{{ tariff.description }}</td>  
+                <td>{{ tariff.clients|length }}</td>  
+                <td>{{ tariff.created_at.strftime('%d.%m.%Y') }}</td>  
+                {% if current_user.is_admin %}  
+                <td>  
+                    <a href="{{ url_for('tariff.edit', id=tariff.id) }}" class="btn-small">Редагувати</a>  
+                    <button onclick="deleteTariff({{ tariff.id }})" class="btn-small delete">Видалити</button>  
+                </td>  
+                {% endif %}  
+            </tr>  
+            {% endfor %}  
+        </tbody>  
+    </table>  
+</div>  
+
+<script>  
+function deleteTariff(id) {  
+    if (confirm('Ви впевнені, що хочете видалити цей тариф?')) {  
+        fetch(`/tariff/${id}/delete`, {  
+            method: 'POST',  
+            headers: {  
+                'X-CSRFToken': '{{ csrf_token() }}'  
+            }  
+        }).then(response => {  
+            if (response.ok) {  
+                location.reload();  
+            }  
+        });  
+    }  
+}  
+</script>  
+{% endblock %}
