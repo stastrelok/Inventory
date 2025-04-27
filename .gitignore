@@ -1,0 +1,113 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# --- Flask ---
+instance/ # Папка екземпляра Flask, може містити конфігурацію/БД
+.webassets-cache # Кеш Flask-Assets (якщо використовується)
+
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Environment variables / secrets ---
+.env # Дуже важливо! Містить секрети (ключі, паролі БД)
+.flaskenv # Часто містить несекретні налаштування, але краще ігнорувати
+
+# --- Database Files ---
+# Якщо використовується SQLite для локальної розробки/тестування
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Session Files ---
+# Для Flask-Session з типом 'filesystem'
+flask_session/
+
+# --- Log Files ---
+*.log
+logs/
+
+# --- IDE / Editor Configuration ---
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Vim
+*.swp
+*~
+# Netbeans
+nbproject/
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Temporary Files ---
+*.tmp
