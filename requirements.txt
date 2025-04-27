@@ -1,8 +1,32 @@
-Flask==2.0.1  
-Flask-SQLAlchemy==2.5.1  
-Flask-Login==0.5.0  
-Flask-WTF==0.15.1  
-mysqlclient==2.0.3  
-python-dotenv==0.19.0  
-Werkzeug==2.0.1  
-WTForms==2.3.3
+# --- Core Flask Framework ---
+Flask==2.3.3  # Or a more recent stable version like 3.0.x if tested
+
+# --- Database ---
+SQLAlchemy==2.0.25      # Core ORM, version 2.x is recommended
+Flask-SQLAlchemy==3.1.1 # Flask integration for SQLAlchemy
+Flask-Migrate==4.0.5    # Database migrations (uses Alembic)
+# Choose ONE MySQL driver:
+PyMySQL==1.1.0          # Pure Python MySQL driver (often easier to install)
+# mysqlclient==2.2.1      # Alternative C-based driver (might be faster but requires compilation)
+
+# --- Forms & Security ---
+Flask-WTF==1.2.1        # Forms handling and CSRF protection (includes WTForms)
+# WTForms is a dependency of Flask-WTF, usually no need to list separately unless specific version needed
+
+# --- Authentication & Sessions ---
+Flask-Login==0.6.3      # User session management (login/logout)
+Flask-Session==0.5.0    # Server-side session management (like filesystem sessions)
+
+# --- Utilities ---
+python-dotenv==1.0.0    # For loading environment variables from .env file
+
+# --- WSGI Server (for deployment) ---
+gunicorn==21.2.0        # Recommended WSGI server for production on Linux/macOS
+
+# --- Dependencies (often installed automatically, but good to be aware of) ---
+# Jinja2             # Templating engine (dependency of Flask)
+# Werkzeug           # WSGI utilities (dependency of Flask)
+# itsdangerous       # Data signing (dependency of Flask/Flask-Login)
+# click              # CLI framework (dependency of Flask)
+# alembic            # Database migration tool (dependency of Flask-Migrate)
+# blinker            # Signal support (may be used by Flask extensions)
