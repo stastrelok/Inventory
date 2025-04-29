@@ -122,7 +122,6 @@ def user_list():
 @user_management_bp.route('/toggle-active/<int:id>', methods=['POST'])
 @login_required
 def toggle_active(id):
-    # Prevent admin from deactivating themselves - crucial!
     if id == current_user.id:
         flash('Ви не можете деактивувати власний обліковий запис.', 'danger')
         return redirect(url_for('user_management_routes.user_list'))

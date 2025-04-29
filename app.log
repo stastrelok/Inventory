@@ -1,0 +1,1128 @@
+2025-04-28 10:03:11,699 - INFO - Successfully registered blueprint: routes.auth:auth_bp
+2025-04-28 10:03:11,723 - INFO - Successfully registered blueprint: routes.main:main_bp
+2025-04-28 10:03:11,747 - INFO - Successfully registered blueprint: routes.client:client_bp
+2025-04-28 10:03:11,758 - INFO - Successfully registered blueprint: routes.equipment:equipment_bp
+2025-04-28 10:03:11,762 - INFO - Successfully registered blueprint: routes.logs:logs_bp
+2025-04-28 10:03:11,772 - INFO - Successfully registered blueprint: routes.street:street_bp
+2025-04-28 10:03:11,782 - INFO - Successfully registered blueprint: routes.tariff:tariff_bp
+2025-04-28 10:03:11,788 - INFO - Successfully registered blueprint: routes.user:user_bp
+2025-04-28 10:03:11,803 - INFO - Successfully registered blueprint: routes.user_management:user_management_bp
+2025-04-28 10:03:11,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.141.233:5000
+2025-04-28 10:03:11,886 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-28 10:03:11,889 - INFO -  * Restarting with stat
+2025-04-28 10:03:13,068 - INFO - Successfully registered blueprint: routes.auth:auth_bp
+2025-04-28 10:03:13,089 - INFO - Successfully registered blueprint: routes.main:main_bp
+2025-04-28 10:03:13,102 - INFO - Successfully registered blueprint: routes.client:client_bp
+2025-04-28 10:03:13,111 - INFO - Successfully registered blueprint: routes.equipment:equipment_bp
+2025-04-28 10:03:13,113 - INFO - Successfully registered blueprint: routes.logs:logs_bp
+2025-04-28 10:03:13,120 - INFO - Successfully registered blueprint: routes.street:street_bp
+2025-04-28 10:03:13,126 - INFO - Successfully registered blueprint: routes.tariff:tariff_bp
+2025-04-28 10:03:13,129 - INFO - Successfully registered blueprint: routes.user:user_bp
+2025-04-28 10:03:13,137 - INFO - Successfully registered blueprint: routes.user_management:user_management_bp
+2025-04-28 10:03:13,159 - WARNING -  * Debugger is active!
+2025-04-28 10:03:13,162 - INFO -  * Debugger PIN: 988-629-314
+2025-04-28 10:03:15,876 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=Bt_ktZ2411CyFwbEiW7Re5gPieO8UvyDnoA1nBAocv4.IuPL16-C_xsI45gqsztrn2UBaXc
+
+
+2025-04-28 10:03:15,876 - DEBUG - Request Path: /logs
+2025-04-28 10:03:15,877 - DEBUG - Session Contents After Request: {'_remember': 'clear', '_flashes': [('message', 'Please log in to access this page.')]}
+2025-04-28 10:03:15,884 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:15] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:15,921 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:15,921 - DEBUG - Request Path: /login
+2025-04-28 10:03:15,922 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:15,928 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:15] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:15,953 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:15,954 - DEBUG - Request Path: /logs
+2025-04-28 10:03:15,954 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:15,956 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:15] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:15,983 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:15,983 - DEBUG - Request Path: /login
+2025-04-28 10:03:15,984 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:15,985 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:15] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,011 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,011 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,012 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,014 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,038 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,038 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,039 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,040 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,071 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,072 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,072 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,074 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,111 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,111 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,111 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,113 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,159 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,160 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,162 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,165 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,241 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,244 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,246 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,254 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,332 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,332 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,333 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,337 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,369 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,369 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,370 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,372 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,404 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,404 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,405 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,407 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,438 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,438 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,439 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,440 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,470 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,471 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,471 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,472 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,504 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,505 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,506 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,508 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,544 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,544 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,545 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,547 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,585 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,586 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,587 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,589 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,624 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,624 - DEBUG - Request Path: /logs
+2025-04-28 10:03:16,625 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,627 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:16,665 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:16,665 - DEBUG - Request Path: /login
+2025-04-28 10:03:16,666 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:16,668 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:16] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,142 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,143 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,144 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,153 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,206 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,206 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,207 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,211 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,238 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,238 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,238 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,240 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,277 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,278 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,278 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,280 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,311 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,311 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,312 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,314 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,339 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,339 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,340 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,342 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,375 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,375 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,376 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,378 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,409 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,409 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,410 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,413 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,444 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,444 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,444 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,447 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,478 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,478 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,479 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,482 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,513 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,513 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,514 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,516 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,553 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,554 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,555 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,560 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,598 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,599 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,599 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,601 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,627 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,627 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,628 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,630 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,657 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,658 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,658 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,661 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,688 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,688 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,689 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,690 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,718 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,718 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,719 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,720 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,749 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,749 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,750 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,751 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,779 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,779 - DEBUG - Request Path: /login
+2025-04-28 10:03:18,779 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,781 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:18,808 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:18,808 - DEBUG - Request Path: /logs
+2025-04-28 10:03:18,809 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:18,811 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:18] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,034 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,035 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,037 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,044 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,159 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,160 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,160 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,162 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,191 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,191 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,192 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,195 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,224 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,224 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,224 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,226 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,258 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,259 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,260 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,262 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,287 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,287 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,287 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,288 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,318 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,318 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,319 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,320 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,353 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,353 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,354 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,357 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,392 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,392 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,393 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,396 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,446 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,446 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,447 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,450 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,536 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,537 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,537 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,539 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,575 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,576 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,576 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,579 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,611 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,612 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,613 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,615 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,655 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,656 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,656 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,658 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,701 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,701 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,702 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,704 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,743 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,743 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,744 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,746 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,785 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,785 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,786 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,788 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,827 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,828 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,829 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,832 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,871 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,871 - DEBUG - Request Path: /logs
+2025-04-28 10:03:24,872 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,874 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:24,933 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/admin/users/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:24,934 - DEBUG - Request Path: /login
+2025-04-28 10:03:24,935 - DEBUG - Session Contents After Request: {'_flashes': [('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.'), ('message', 'Please log in to access this page.')], '_remember': 'clear'}
+2025-04-28 10:03:24,937 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:24] "[32mGET /login?next=/logs HTTP/1.1[0m" 302 -
+2025-04-28 10:03:26,590 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Sec-Purpose: prefetch;prerender
+Purpose: prefetch
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=W7wwktv7mnhxZhwC02vDvWAIanbohvlljPHB_bq-u-Q.-haNoTXipQLLELSVf9pdx1bcSQU
+
+
+2025-04-28 10:03:26,590 - DEBUG - Request Path: /
+2025-04-28 10:03:27,078 - DEBUG - Session Contents After Request: {'_remember': 'clear'}
+2025-04-28 10:03:27,083 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:27] "GET / HTTP/1.1" 200 -
+2025-04-28 10:03:27,747 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Sec-Purpose: prefetch;prerender
+Accept: text/css,*/*;q=0.1
+Purpose: prefetch
+Referer: http://172.23.141.233:5000/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+If-None-Match: "1745074496.1701596-3102-2610172346"
+
+
+2025-04-28 10:03:27,749 - DEBUG - Request Path: /static/css/style.css
+2025-04-28 10:03:27,757 - DEBUG - Session Contents After Request: {'_id': '3fea2c6c85f20776e903e565c9f49297'}
+2025-04-28 10:03:27,758 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-28 10:03:30,391 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+
+
+2025-04-28 10:03:30,392 - DEBUG - Request Path: /login
+2025-04-28 10:03:30,395 - INFO - CSRF token in form: Ijk1ZmQ1Y2U2YmMxZWE4YjJmMTkyYTIzZTE1NmM2N2E4N2YyNGJlNzUi.aA8oQg.X-B6NfCnKH6oZkpPwEDfhxSDGf8
+2025-04-28 10:03:30,395 - INFO - Session contains csrf_token: True
+2025-04-28 10:03:30,395 - DEBUG - Session contents on GET/POST: {'_remember': 'clear', 'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75'}
+2025-04-28 10:03:30,405 - DEBUG - Session Contents After Request: {'_remember': 'clear', 'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75'}
+2025-04-28 10:03:30,407 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:30] "GET /login HTTP/1.1" 200 -
+2025-04-28 10:03:30,882 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/css,*/*;q=0.1
+Referer: http://172.23.141.233:5000/login
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+If-None-Match: "1745074496.1701596-3102-2610172346"
+
+
+2025-04-28 10:03:30,883 - DEBUG - Request Path: /static/css/style.css
+2025-04-28 10:03:30,884 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_id': 'f37f4b61195ce3a5c43391b8c13389e6'}
+2025-04-28 10:03:30,886 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-28 10:03:34,870 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Content-Length: 196
+Cache-Control: max-age=0
+Origin: http://172.23.141.233:5000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/login
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+
+
+2025-04-28 10:03:34,871 - DEBUG - Request Path: /login
+2025-04-28 10:03:34,874 - INFO - CSRF token in form: Ijk1ZmQ1Y2U2YmMxZWE4YjJmMTkyYTIzZTE1NmM2N2E4N2YyNGJlNzUi.aA8oRg.d0b-LiiWaWKz69PiwCJ2iSeeS74
+2025-04-28 10:03:34,874 - INFO - Session contains csrf_token: True
+2025-04-28 10:03:34,875 - DEBUG - Session contents on GET/POST: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_remember': 'clear'}
+2025-04-28 10:03:35,521 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_remember': 'clear', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb', '_flashes': [('success', 'Вхід виконано успішно!')]}
+2025-04-28 10:03:35,564 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-28 10:03:35,640 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/login
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+
+
+2025-04-28 10:03:35,641 - DEBUG - Request Path: /
+2025-04-28 10:03:35,710 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb'}
+2025-04-28 10:03:35,718 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:35] "GET / HTTP/1.1" 200 -
+2025-04-28 10:03:36,505 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/css,*/*;q=0.1
+Referer: http://172.23.141.233:5000/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+If-None-Match: "1745074496.1701596-3102-2610172346"
+If-Modified-Since: Sat, 19 Apr 2025 14:54:56 GMT
+
+
+2025-04-28 10:03:36,505 - DEBUG - Request Path: /static/css/style.css
+2025-04-28 10:03:36,506 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb'}
+2025-04-28 10:03:36,509 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-28 10:03:39,233 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+
+
+2025-04-28 10:03:39,233 - DEBUG - Request Path: /logs
+2025-04-28 10:03:39,320 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb'}
+2025-04-28 10:03:39,327 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:39] "GET /logs HTTP/1.1" 200 -
+2025-04-28 10:03:39,970 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/css,*/*;q=0.1
+Referer: http://172.23.141.233:5000/logs
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+If-None-Match: "1745074496.1701596-3102-2610172346"
+If-Modified-Since: Sat, 19 Apr 2025 14:54:56 GMT
+
+
+2025-04-28 10:03:39,971 - DEBUG - Request Path: /static/css/style.css
+2025-04-28 10:03:39,972 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb'}
+2025-04-28 10:03:39,974 - INFO - 172.23.128.1 - - [28/Apr/2025 10:03:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-28 10:12:15,422 - INFO -  * Detected change in '/home/stas/kurs/Inventory/utils.py', reloading
+2025-04-28 10:12:15,838 - INFO -  * Restarting with stat
+2025-04-28 10:12:18,427 - INFO - Successfully registered blueprint: routes.auth:auth_bp
+2025-04-28 10:12:18,445 - INFO - Successfully registered blueprint: routes.main:main_bp
+2025-04-28 10:12:18,458 - ERROR - Failed to register blueprint routes.client:client_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:12:18,461 - ERROR - Failed to register blueprint routes.equipment:equipment_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:12:18,462 - ERROR - Failed to register blueprint routes.logs:logs_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:12:18,465 - ERROR - Failed to register blueprint routes.street:street_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:12:18,468 - ERROR - Failed to register blueprint routes.tariff:tariff_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:12:18,472 - INFO - Successfully registered blueprint: routes.user:user_bp
+2025-04-28 10:12:18,482 - INFO - Successfully registered blueprint: routes.user_management:user_management_bp
+2025-04-28 10:12:18,543 - WARNING -  * Debugger is active!
+2025-04-28 10:12:18,546 - INFO -  * Debugger PIN: 988-629-314
+2025-04-28 10:22:12,916 - INFO -  * Detected change in '/home/stas/kurs/Inventory/routes/client.py', reloading
+2025-04-28 10:22:13,314 - INFO -  * Restarting with stat
+2025-04-28 10:22:15,104 - INFO - Successfully registered blueprint: routes.auth:auth_bp
+2025-04-28 10:22:15,120 - INFO - Successfully registered blueprint: routes.main:main_bp
+2025-04-28 10:22:15,140 - ERROR - Failed to register blueprint routes.client:client_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:22:15,143 - ERROR - Failed to register blueprint routes.equipment:equipment_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:22:15,144 - ERROR - Failed to register blueprint routes.logs:logs_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:22:15,147 - ERROR - Failed to register blueprint routes.street:street_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:22:15,150 - ERROR - Failed to register blueprint routes.tariff:tariff_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:22:15,153 - INFO - Successfully registered blueprint: routes.user:user_bp
+2025-04-28 10:22:15,161 - INFO - Successfully registered blueprint: routes.user_management:user_management_bp
+2025-04-28 10:22:15,212 - WARNING -  * Debugger is active!
+2025-04-28 10:22:15,214 - INFO -  * Debugger PIN: 988-629-314
+2025-04-28 10:22:25,653 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/logs
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+
+
+2025-04-28 10:22:25,654 - DEBUG - Request Path: /clients
+2025-04-28 10:22:25,655 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb'}
+2025-04-28 10:22:25,658 - INFO - 172.23.128.1 - - [28/Apr/2025 10:22:25] "[33mGET /clients HTTP/1.1[0m" 404 -
+2025-04-28 10:22:30,428 - DEBUG - Request Headers: Host: 172.23.141.233:5000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://172.23.141.233:5000/logs
+Accept-Encoding: gzip, deflate
+Accept-Language: uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: session=VWTMAWCQ0KF_-wAssvq65YOYqwj03EVhHM-6fulb0nc.DrZpOG9WhTkGkk5ilzTFyyyPogQ
+
+
+2025-04-28 10:22:30,428 - DEBUG - Request Path: /clients
+2025-04-28 10:22:30,429 - DEBUG - Session Contents After Request: {'csrf_token': '95fd5ce6bc1ea8b2f192a23e156c67a87f24be75', '_user_id': '1', '_fresh': True, '_id': '9689fbb829bc20e38467e3abe1f4d72642a0c3cc5ec90ceb7d7009c3e8ba8f59389ebad36347c4cc9f4fdbb666d7ffcd5526d97ebf925b9bbd0098514f277ffb'}
+2025-04-28 10:22:30,467 - INFO - 172.23.128.1 - - [28/Apr/2025 10:22:30] "[33mGET /clients HTTP/1.1[0m" 404 -
+2025-04-28 10:29:40,752 - INFO -  * Detected change in '/home/stas/kurs/Inventory/routes/user_management.py', reloading
+2025-04-28 10:29:41,020 - INFO -  * Restarting with stat
+2025-04-28 10:29:43,423 - INFO - Successfully registered blueprint: routes.auth:auth_bp
+2025-04-28 10:29:43,444 - INFO - Successfully registered blueprint: routes.main:main_bp
+2025-04-28 10:29:43,458 - ERROR - Failed to register blueprint routes.client:client_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:29:43,461 - ERROR - Failed to register blueprint routes.equipment:equipment_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:29:43,463 - ERROR - Failed to register blueprint routes.logs:logs_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:29:43,466 - ERROR - Failed to register blueprint routes.street:street_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:29:43,469 - ERROR - Failed to register blueprint routes.tariff:tariff_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:29:43,474 - INFO - Successfully registered blueprint: routes.user:user_bp
+2025-04-28 10:29:43,489 - INFO - Successfully registered blueprint: routes.user_management:user_management_bp
+2025-04-28 10:29:43,547 - WARNING -  * Debugger is active!
+2025-04-28 10:29:43,551 - INFO -  * Debugger PIN: 988-629-314
+2025-04-28 10:32:30,689 - INFO -  * Detected change in '/home/stas/kurs/Inventory/routes/client.py', reloading
+2025-04-28 10:32:31,001 - INFO -  * Restarting with stat
+2025-04-28 10:32:33,462 - INFO - Successfully registered blueprint: routes.auth:auth_bp
+2025-04-28 10:32:33,489 - INFO - Successfully registered blueprint: routes.main:main_bp
+2025-04-28 10:32:33,516 - ERROR - Failed to register blueprint routes.client:client_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:32:33,521 - ERROR - Failed to register blueprint routes.equipment:equipment_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:32:33,523 - ERROR - Failed to register blueprint routes.logs:logs_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:32:33,526 - ERROR - Failed to register blueprint routes.street:street_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:32:33,530 - ERROR - Failed to register blueprint routes.tariff:tariff_bp: cannot import name 'admin_required' from 'utils' (/home/stas/kurs/Inventory/utils.py)
+2025-04-28 10:32:33,536 - INFO - Successfully registered blueprint: routes.user:user_bp
+2025-04-28 10:32:33,549 - INFO - Successfully registered blueprint: routes.user_management:user_management_bp
+2025-04-28 10:32:33,623 - WARNING -  * Debugger is active!
+2025-04-28 10:32:33,625 - INFO -  * Debugger PIN: 988-629-314
